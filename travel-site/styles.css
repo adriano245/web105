@@ -1,0 +1,97 @@
+*{
+    overflow: auto;
+}
+body{
+    font-family: 'Amatic+SC', cursive;
+    background: #c6d8c6;
+    color: #181515;
+    box-sizing: border-box;
+    
+}
+.container{
+    background: #ffffcf;
+    width: 80%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+h1{
+    font-family: 'Play', sans-serif;
+    color: #e0759a;
+}
+
+h2{
+    font-family: 'Orbitron', sans-serif;
+    color: #c4004d;
+    
+}
+
+nav{
+    text-align: center;
+    line-height: 3;
+}
+
+nav a, .button{
+    padding: 10px 20px;
+    margin-left: 20px;
+    color: #ffffcf;
+    background:#e0759a;
+    border: 2px solid #e0759a;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav a:hover, .button:hover{
+    color: #e0759a;
+    background: #ffffcf;
+    
+}
+
+nav a: visited; .button:visited{
+    background: #c6d8c6;
+    border: #c6d8c6;
+}
+img{
+    padding: 10px;
+    background: #348e49;
+}
+#kwanzan{
+    width: 30%;
+    
+    float: right;
+}
+#shirofugen{
+    width: 30%;
+
+    float: right;
+}
+#okame{
+    width: 20%;
+
+    float: right;
+}
+aside{
+    clear: both;
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    overflow: auto;
+    border: 2px solid #348e49;
+    margin-right: 10px;
+}
+
+header, footer{
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+main{
+    box-sizing: border-box;
+    padding: 30px;
+}
+
